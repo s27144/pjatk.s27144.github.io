@@ -1,0 +1,91 @@
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #333;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 24px;
+  color: #555;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.info {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+.info p {
+  margin: 5px 0;
+}
+
+.geometric-shape {
+  width: 100%;
+  height: 50px;
+  background-color: #ddd;
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+  margin-bottom: 20px;
+}
+
+.rodo {
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#downloadPDF {
+  background-color: #515919;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
