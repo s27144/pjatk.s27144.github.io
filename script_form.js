@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
       //window.open('https://api.urlbox.io/v1/fqzMzMZ5hRsrtFYo/pdf?url=s27144.github.io/result.html', '_blank');
   });
 
-  document.getElementById('downloadPDF').addEventListener('click', function() {
+ /*  document.getElementById('downloadPDF').addEventListener('click', function() {
       window.open('https://api.urlbox.io/v1/fqzMzMZ5hRsrtFYo/pdf?url=s27144.github.io/result.html', '_blank');
-  });
+  }); */
 });
