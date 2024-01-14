@@ -21,6 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   document.getElementById('downloadPDF').addEventListener('click', function() {
-      window.open('https://api.urlbox.io/v1/fqzMzMZ5hRsrtFYo/pdf?url=cvcreator.net/result.html', '_blank');
+      window.open('https://api.urlbox.io/v1/fqzMzMZ5hRsrtFYo/pdf?url=s27144.github.io/result.html', '_blank');
   });
 });
