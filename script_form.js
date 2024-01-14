@@ -17,7 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
       localStorage.setItem('skills', skills);
       localStorage.setItem('hobbys', hobbys);
       window.location.href = 'result.html';
-      alert("Aby pobrac wygenerowane CV, kliknij PPM i wybierz opcję Zrzut ekranu");
+      setTimeout(alert("Aby pobrac wygenerowane CV, kliknij PPM i wybierz opcję Zrzut ekranu"), 5000);
+     
       //window.open('https://api.urlbox.io/v1/fqzMzMZ5hRsrtFYo/pdf?url=s27144.github.io/result.html', '_blank');
   });
 
