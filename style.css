@@ -27,6 +27,10 @@ body {
     display:none;
 }
 
+#message {
+	
+	display: block;
+}
 #no {
     background-color: #F44336;
     display:none;
@@ -50,7 +54,7 @@ body {
 }
 
 #response-buttons {
-    display: flex;
+    display: none;
     justify-content: center;
     gap: 20px;
 }

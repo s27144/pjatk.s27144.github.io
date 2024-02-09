@@ -20,5 +20,6 @@ function answer(response) {
         document.getElementById("response-buttons").insertAdjacentHTML('afterend', video);
 		document.getElementById("end").style.display = "block";
 		document.getElementById("end2").style.display = "block";
+		document.getElementById("response-buttons").style.display = "none";
     }
 };
