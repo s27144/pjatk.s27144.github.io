@@ -24,22 +24,20 @@ body {
 
 #yes {
     background-color: #4CAF50;
-	display:none;
+    display:none;
 }
 
 #no {
     background-color: #F44336;
-	display:none;
-}
-#end, #end2 {
-		display: none;
-}	
-#response-buttons button:hover {
-    opacity: 0.8;
+    display:none;
 }
 
-#yes.enlarged {
-    transform: scale(1.1);
+#end, #end2 {
+    display: none;
+}
+
+#response-buttons button:hover {
+    opacity: 0.8;
 }
 
 .container {
@@ -55,4 +53,26 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+/* Media query dla małych ekranów */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Zwiększenie szerokości kontenera na mniejszych ekranach */
+    }
+
+    #response-buttons button {
+        padding: 15px 25px; /* Zwiększenie rozmiaru przycisków */
+        font-size: 20px; /* Zwiększenie rozmiaru czcionki przycisków */
+    }
+
+    #response-buttons {
+        flex-direction: column; /* Zmiana układu przycisków na pionowy */
+        gap: 10px; /* Zmniejszenie odstępu między przyciskami */
+    }
+
+    h2, h3, p {
+        padding: 0 10px; /* Dodanie paddingu do tekstu, aby nie dotykał krawędzi ekranu */
+        font-size: calc(16px + 2vw); /* Zwiększenie rozmiaru czcionki w zależności od szerokości ekranu */
+    }
 }
