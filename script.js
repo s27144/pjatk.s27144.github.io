@@ -1,10 +1,11 @@
-function show() {
+
+window.onload = function show() {
     document.getElementById("valentine").style.display = "block";
     document.getElementById("response-buttons").style.display = "flex";
     document.getElementById("message").style.display = "none";
 	document.getElementById("yes").style.display = "block";
 	document.getElementById("no").style.display = "block";
-}
+};
 
 function answer(response) {
     const yesButton = document.getElementById("yes");
@@ -20,4 +21,4 @@ function answer(response) {
 		document.getElementById("end").style.display = "block";
 		document.getElementById("end2").style.display = "block";
     }
-}
+};
