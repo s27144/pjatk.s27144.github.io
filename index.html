@@ -1,70 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <title>CVCreator</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>J+S = WMDGD ❤️</title>
+	 <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul class="menu">
-        <li><a href="main.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="https://pl.wikipedia.org/wiki/Curriculum_vitae" target="_blank">Curiosities</a></li>
-      </ul>
-    </nav>
-  </header>
+<div class="cursor"></div>
+<main class="container">
+    <div class="grid">
+        <section>
+            <hgroup>
+                <h2>Walentynki - Sandi i Jancio</h2>
+                <h3>Zaproszenie specjalnie dla mojej lepszej połówki</h3>
+            </hgroup>
+            <p>Hej, moja cudowna i przesłodka kruszynko! Mam do Ciebie jedno pytanie...</p>
+            <button id="message" onclick="show()">Kliknij mnie!</button>
+            <h1 id="valentine">WILL YOU 🐝 MY VALENTINE?💞💞</h1>
+            <div id="response-buttons">
+                <button id="yes" onclick="answer('yes')">YES</button>
+                <button id="no" onclick="answer('no')">NO</button>
 
-  <main class="main">
-    <section id="cv" class="content">
-      <h2 id="typingHeader" style="text-align: center;"></h2>
-      <button  id="tryNowButton" class="button" type="button">Spróbuj już teraz!</button>
-      <form id="cvForm" class="cv-form" style="display: none;">
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-        <div class="form-group">
-          <label for="contactdetails">Contact Details:</label>
-          <textarea type="text" id="contactdetails" name="contactdetails" required></textarea>
-        </div>
-        <div class="form-group">
-          <label for="personaldescribtion">Personal Description:</label>
-          <textarea type="text" id="personaldescribtion" name="personaldescribtion" required></textarea>
-        </div>
-        <div class="form-group">
-          <label for="education">Education:</label>
-          <textarea id="education" name="education" rows="4" cols="50" required></textarea>
-        </div>
-        <div class="form-group">
-          <label for="experience">Work Experience:</label>
-          <textarea id="experience" name="experience" rows="4" cols="50" required></textarea>
-        </div>
-        <div class="form-group">
-          <label for="skills">Skills:</label>
-          <textarea id="skills" name="skills" rows="4" cols="50" required></textarea>
-        </div>
-        <div class="form-group">
-          <label for="hobbys">Hobbys:</label>
-          <textarea id="hobbys" name="hobbys" rows="4" cols="50" required></textarea>
-        </div>
-        <div class="form-group">
-          <button id="generateCV" class="button" type="submit">Generate CV</button>
-          <!-- <button id="downloadPDF" class="button" type="button">Download PDF</button> -->
-        </div>
-      </form>
-      <div id="cvResult">
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2023 CVCreator. All rights reserved. Jan Skulimowski S27144</p>
-  </footer>
-  <script src="script_form.js"></script>
-  <script src="script.js"></script>
+            </div>
+				<h1 id="end"></br>Dziękuję, że kolejny Valentine's Day chcesz spędzić ze mną...💞</h1>
+				<h1 id="end2">❤️ Kocham Cię! ❤️</h1> ️
+        </section>
+    </div>
+</main>
+<footer class="container">
+    <small>Wykonał napędzony miłością do Sandi - Jancio 💞</small>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>

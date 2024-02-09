@@ -1,0 +1,58 @@
+html {
+    cursor: url('data:image/x-icon;base64,...'), auto; 
+}
+
+body {
+    text-align: center;
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+#valentine, #response-buttons {
+    display: none;
+}
+
+#response-buttons button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#yes {
+    background-color: #4CAF50;
+	display:none;
+}
+
+#no {
+    background-color: #F44336;
+	display:none;
+}
+#end, #end2 {
+		display: none;
+}	
+#response-buttons button:hover {
+    opacity: 0.8;
+}
+
+#yes.enlarged {
+    transform: scale(1.1);
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#response-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
